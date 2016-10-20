@@ -1,3 +1,5 @@
+export PEARL_ROOT=/home/moris/.local/share/pearl
+source /home/moris/.local/share/pearl/boot/sh/pearl.sh
 # Path to your oh-my-zsh installation.
   export ZSH=/home/moris/.oh-my-zsh
 
@@ -87,3 +89,4 @@ source /etc/profile.d/vte.sh
 
 autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
 add-zsh-hook chpwd chpwd_recent_dirs
+export TERM=xterm-256color
